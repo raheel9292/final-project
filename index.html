@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+      crossorigin="anonymous">
+
+<!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+      rel="stylesheet">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" 
+      rel="stylesheet">
+
+<!-- Slick Carousel CSS -->
+<link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+<!-- Animate.css -->
+<link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- Custom Stylesheets -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+
+    <div class="nav--nav">
+        <div class="container py-3">
+            <!-- Desktop and Laptop View (Visible only on large screens and above) -->
+            <div class="row align-items-center d-none d-md-flex">
+                <!-- Logo Section -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <img src="images/pngwing.com.png" alt="Logo" class="logo">
+                </div>
+        
+                <!-- Navigation Section -->
+                <div class="col-lg-8 col-md-6 col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Home
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                            <li><a class="dropdown-item" href="index.html">Home 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="shoppage.html" id="shopLink">Shop</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="aboutuspage.html">About Us</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                            <li><a class="dropdown-item" href="aboutuspage.html">About Us</a></li>
+                                            <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                            <li><a class="dropdown-item" href="#">Compare</a></li>
+                                            <li><a class="dropdown-item" href="#">Team</a></li>
+                                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                            <li><a class="dropdown-item" href="contactuspage.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                                            <li><a class="dropdown-item" href="#">Blog Left Sidebar</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="contactuspage.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+        
+                <!-- Icons Section -->
+                <div class="col-lg-2 col-md-3 col-6 text-end icon d-none d-md-flex">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-user mx-1"></i>
+                    <i class="fas fa-shopping-cart mx-1"></i>
+                </div>
+            </div>
+        
+            <!-- Mobile View Section (Visible only on smaller screens) -->
+             
+            <div class="row  nav--nav align-items-center d-md-none"style="height: 60px; background-color: #ffffff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); padding: 0 20px;">
+               <!-- Logo Section -->
+    <div class="col-7 d-flex align-items-center">
+        <img src="images/pngwing.com.png" alt="Logo" class="logo img-fluid" style="max-width: 50px; height: auto;">
+    </div>
+
+    <!-- Icons Section -->
+    <div class="col-3 d-flex justify-content-end align-items-center icon mt-3">
+        <i class="fas fa-shopping-cart mx-1" style="font-size: 20px; color: #555555;"></i>
+        <i class="fas fa-user mx-1" style="font-size: 20px; color: #555555;"></i>
+    </div>
+
+    <!-- Hamburger Button for Mobile -->
+    <div class="col-2 d-flex justify-content-end align-items-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none; background: transparent;">
+            <span class="navbar-toggler-icon" style="font-size: 30px;">
+                <i class="fas fa-bars" style="color: #555555;"></i> <!-- Font Awesome Hamburger Icon -->
+            </span>
+        </button>
+    </div>
+            </div>
+        
+            <!-- Collapsible Navbar (Visible only on mobile) -->
+            <div class="col-lg-8 col-md-6 col-12 d-md-none">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarNav" >
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                        <li><a class="dropdown-item" href="index.html">Home 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="shoppage.html">Shop</a></li>
+                                <li class="nav-item"><a class="nav-link" href="aboutuspage.html">About Us</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                        <li><a class="dropdown-item" href="abouts">About Us</a></li>
+                                        <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                        <li><a class="dropdown-item" href="#">Compare</a></li>
+                                        <li><a class="dropdown-item" href="#">Team</a></li>
+                                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                        <li><a class="dropdown-item" href="contactuspage.html">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                                        <li><a class="dropdown-item" href="#">Blog Left Sidebar</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="contactuspage.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+
+            <!-- Shop Content -->
+    <div id="shopContent" style="display: none;">
+        <div class="container container py-5  " >
+            <!-- Main Content Row -->
+            <div class="row gy-4" style=" background: #f0f0f0; /* Unified background color */">
+            <!-- Category Sections Column (First col-md-6) -->
+            <div class="col-md-6">
+            <div class="row gy-4">
+            <!-- Kid's Fashion -->
+            <div class="col-md-3">
+            <div class="category-box">
+            <h3 class="category-title" >Kid's Fashion</h3>
+            <ul class="product-list">
+               <li><a href="#">Toys</a></li>
+               <li><a href="#">Clothing</a></li>
+               <li><a href="#">Footwear</a></li>
+               <li><a href="#">Accessories</a></li>
+            </ul>
+            </div>
+            </div>
+            
+            <!-- Man's Fashion -->
+            <div class="col-md-3">
+            <div class="category-box">
+            <h3 class="category-title">Man's Fashion</h3>
+            <ul class="product-list">
+               <li><a href="#">Shirts</a></li>
+               <li><a href="#">Pants</a></li>
+               <li><a href="#">Shoes</a></li>
+               <li><a href="#">Jackets</a></li>
+            </ul>
+            </div>
+            </div>
+            
+            <!-- Women's Fashion -->
+            <div class="col-md-3">
+            <div class="category-box">
+            <h3 class="category-title">Women's Fashion</h3>
+            <ul class="product-list">
+               <li><a href="#">Dresses</a></li>
+               <li><a href="#">Tops</a></li>
+               <li><a href="#">Shoes</a></li>
+               <li><a href="#">Jewelry</a></li>
+            </ul>
+            </div>
+            </div>
+            
+            <!-- Boy's Fashion -->
+            <div class="col-md-3">
+            <div class="category-box">
+            <h3 class="category-title">Boy's Fashion</h3>
+            <ul class="product-list">
+               <li><a href="#">T-Shirts</a></li>
+               <li><a href="#">Shorts</a></li>
+               <li><a href="#">Sneakers</a></li>
+               <li><a href="#">Accessories</a></li>
+            </ul>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+            <!-- Product Cards Column (Second col-md-6) -->
+            <div class="col-md-6">
+            <div class="row gy-4 d-flex justify-content-center">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-6">
+            <div class="card shopping-card position-relative">
+            <img src="images/images (31).jpg" class="card-img-top" alt="Shoe 1">
+            <div class="card-overlay text-center">
+               <h3 class="card-title">Kid's Fashion</h3>
+               <button class="btn shop-btn btn-outline-danger">Shop Now</button>
+            </div>
+            </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-6">
+            <div class="card shopping-card position-relative">
+            <img src="images/12_ecca5b85-8d8a-4c6e-bf67-3e3f265da86e_360x.webp" class="card-img-top" alt="Bag 1">
+            <div class="card-overlay text-center">
+               <h3 class="card-title">Man's Fashion</h3>
+               <button class="btn shop-btn btn-outline-danger">Shop Now</button>
+            </div>
+            </div>
+            </div>
+            
+            
+            </div>
+            </div>
+            </div>
+            </div>
+    </div>
+    
+    </div>
+    
+
+
+    
+  
+    
+<!-- ................................................................... -->
+
+<div class="beer-section " >
+    <div class="container" style="margin-top: 100px;">
+        <div class="row justify-content-center align-items-center">
+            <!-- First Column: Text Content -->
+            <div class="col-md-6 content animated-content">
+                <h1 id="beer-heading">Discover the Taste of Craft Beer</h1>
+                <p id="beer-description">
+                    Experience the finest collection of craft beers brewed with passion and tradition. Dive into the world of flavors, aromas, and unforgettable experiences with every sip.
+                </p>
+                <button id="explore-btn">Explore Now</button>
+            </div>
+            <!-- Second Column: Image -->
+            <div class="col-md-6 image animated-image mb-5">
+                <img id="beer-image" src="images/pngwing.com1.png" alt="Beer Image">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ....................................................................... -->
+
+
+
+
+
+
+
+<div class="container py-5">
+    <!-- Section Heading -->
+    <div class="text-center mb-5 wow fadeInDown" data-wow-duration="1.5s">
+        <h2 class="fw-bold">Explore Our Features</h2>
+        <p class="text-muted">Discover what we have to offer and make the most out of your experience.</p>
+    </div>
+
+    <!-- Row for Cards Section -->
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <div class="card shadow-sm custom-card-hover">
+                <div class="card-body text-center">
+                    <i class="fas fa-shopping-cart fa-3x text-primary mb-3"></i>
+                    <h4 class="card-title">Shop Now</h4>
+                    <p class="card-text">Browse a variety of products and enjoy great deals.</p>
+                    <a href="#" class="btn custom-btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.5s">
+            <div class="card shadow-sm custom-card-hover">
+                <div class="card-body text-center">
+                    <i class="fas fa-users fa-3x text-success mb-3"></i>
+                    <h4 class="card-title">Our Team</h4>
+                    <p class="card-text">Meet our talented and dedicated team members.</p>
+                    <a href="#" class="btn custom-btn-success">Meet the Team</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4 wow zoomIn" data-wow-duration="1.3s" data-wow-delay="0.7s">
+            <div class="card shadow-sm custom-card-hover">
+                <div class="card-body text-center">
+                    <i class="fas fa-info-circle fa-3x text-warning mb-3"></i>
+                    <h4 class="card-title">Learn More</h4>
+                    <p class="card-text">Find out more about what we offer and our services.</p>
+                    <a href="#" class="btn custom-btn-warning">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
+            <div class="card shadow-sm custom-card-hover">
+                <div class="card-body text-center">
+                    <i class="fas fa-cogs fa-3x text-info mb-3"></i>
+                    <h4 class="card-title">Services</h4>
+                    <p class="card-text">Explore the range of services we offer to cater to your needs.</p>
+                    <a href="services.html" class="btn custom-btn-info">Our Services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- .................................................... -->
+<div class="container py-5">
+    <!-- Section Heading -->
+    <div class="text-center mb-5 wow fadeInDown" data-wow-duration="1.5s">
+        <h2 class="section-title fw-bold">Explore Our Collections</h2>
+        <p class="section-subtitle text-muted">Discover the latest in fashion for everyone</p>
+    </div>
+
+    <!-- Row for Cards -->
+    <div class="row gy-4">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="card shopping-card position-relative shadow-lg">
+                <img src="images/images (31).jpg" class="card-img-top rounded-top" alt="Kid's Fashion">
+                <div class="card-overlay d-flex flex-column justify-content-center text-center">
+                    <h3 class="card-title fw-bold text-white mb-3">Kid's Fashion</h3>
+                    <button class="btn shop-btn btn-outline-light">Shop Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="card shopping-card position-relative shadow-lg">
+                <img src="images/12_ecca5b85-8d8a-4c6e-bf67-3e3f265da86e_360x.webp" class="card-img-top rounded-top" alt="Man's Fashion">
+                <div class="card-overlay d-flex flex-column justify-content-center text-center">
+                    <h3 class="card-title fw-bold text-white mb-3">Man's Fashion</h3>
+                    <button class="btn shop-btn btn-outline-light">Shop Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">
+            <div class="card shopping-card position-relative shadow-lg">
+                <img src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="card-img-top rounded-top" alt="Top's Sales">
+                <div class="card-overlay d-flex flex-column justify-content-center text-center">
+                    <h3 class="card-title fw-bold text-white mb-3">Top's Sales</h3>
+                    <button class="btn shop-btn btn-outline-light">Shop Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.8s">
+            <div class="card shopping-card position-relative shadow-lg">
+                <img src="images/pngwing.com1.png" class="card-img-top rounded-top" alt="Women's Fashion">
+                <div class="card-overlay d-flex flex-column justify-content-center text-center">
+                    <h3 class="card-title fw-bold text-white mb-3">Women's Fashion</h3>
+                    <button class="btn shop-btn btn-outline-light">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ...................................................... -->
+<!-- Include Animate.css from CDN -->
+
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="section-title animate__animated animate__fadeInDown">Special Deals</h2>
+        <p class="section-subtitle animate__animated animate__fadeInUp animate__delay-1s">Grab your favorites at unbeatable prices!</p>
+    </div>
+
+    <div class="row gy-4">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3" id="card-1">
+            <div class="card hover-card position-relative animate__animated animate__zoomIn animate__delay-2s">
+                <div class="card-front text-center">
+                    <img id="card-img-1" src="images/pngwing.com 5.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-1" class="product-description">Discover the perfect blend of quality and amazing product.</p>
+                        <p id="price-1" class="price">
+                            <span class="discounted-price">$23.00</span>
+                            <span class="discounted-price"><del>$66.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-1" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center animate__animated animate__fadeIn animate__delay-2s">
+                            <img id="hover-img-1" src="images/images (34).jpg" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-1" class="discount-badge">20% Off</div>
+                            <div id="hover-icons-1" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-1-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-1-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-1-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-1" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3" id="card-2">
+            <div class="card hover-card position-relative animate__animated animate__zoomIn animate__delay-3s">
+                <div class="card-front text-center">
+                    <img id="card-img-2" src="images/pngwing.com1.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-2" class="product-description">Experience elegance and functionality in one product.</p>
+                        <p id="price-2" class="price">
+                            <span class="discounted-price">$45.00</span>
+                            <span class="discounted-price"><del>$90.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-2" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center animate__animated animate__fadeIn animate__delay-3s">
+                            <img id="hover-img-2" src="images/pngwing.com10.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-2" class="discount-badge">25% Off</div>
+                            <div id="hover-icons-2" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-2-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-2-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-2-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-2" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3" id="card-3">
+            <div class="card hover-card position-relative animate__animated animate__zoomIn animate__delay-4s">
+                <div class="card-front text-center">
+                    <img id="card-img-3" src="images/pngwing.com3.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-3" class="product-description">Your next must-have item is here. Don’t miss out!</p>
+                        <p id="price-3" class="price">
+                            <span class="discounted-price">$15.00</span>
+                            <span class="discounted-price"><del>$40.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-3" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center animate__animated animate__fadeIn animate__delay-4s">
+                            <img id="hover-img-3" src="images/pngwing.com2.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-3" class="discount-badge">30% Off</div>
+                            <div id="hover-icons-3" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-3-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-3-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-3-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-3" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3" id="card-4">
+            <div class="card hover-card position-relative animate__animated animate__zoomIn animate__delay-5s">
+                <div class="card-front text-center">
+                    <img id="card-img-4" src="images/14_df68d460-fe53-409a-bf36-98d01c12cbff_360x (1).webp" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-4" class="product-description">Unparalleled style and performance in every way.</p>
+                        <p id="price-4" class="price">
+                            <span class="discounted-price">$30.00</span>
+                            <span class="discounted-price"><del>$75.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-4" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center animate__animated animate__fadeIn animate__delay-5s">
+                            <img id="hover-img-4" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-4" class="discount-badge">35% Off</div>
+                            <div id="hover-icons-4" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-4-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-4-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-4-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-4" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ................................................ -->
+
+<div class="container-fluid  py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="headline-container">
+                    <h2 class="headline">Welcome to Our Website</h2>
+                    <h2 class="headline">Explore Our Latest Projects</h2>
+                    <h2 class="headline">Get in Touch with Us</h2>
+                    <h2 class="headline">Join Our Newsletter</h2>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</div>
+
+<!-- ................................................................... -->
+<div class="container-fluid py-5 mt-2">
+    <div class="container">
+        <!-- Top Heading and Paragraph -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="wow fadeInDown" data-wow-duration="1s">Explore Our Image Collection</h2>
+                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                    Discover some of our featured images with their respective details and insights. Hover over the images to learn more about each one.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Image 1 with content -->
+            <div class="col-md-6">
+                <div class="image-container image-container-1 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <img src="images/pngwing.com1.png" alt="Image 1" class="image image-1">
+                    <div class="overlay overlay-1">
+                        <h3>Beautiful Nature Landscape</h3>
+                        <p>Experience the stunning beauty of nature with this breathtaking landscape.</p>
+                        <button>Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 2 with content -->
+            <div class="col-md-6">
+                <div class="image-container image-container-2 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <img src="images/pngwing.com 7.png" alt="Image 2" class="image image-2">
+                    <div class="overlay overlay-2">
+                        <h3>Urban City Life</h3>
+                        <p>Explore the vibrant and dynamic energy of urban cityscapes in this image.</p>
+                        <button>Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ................................................ -->
+<div class="container py-5 bg-light">
+    <!-- Section Heading -->
+    <div class="row">
+        <!-- First Column with Image (Adjusted Column Size) -->
+        <div class="col-md-12 col-lg-6">
+            <div class="image-container" style="border: 2px solid rgb(203, 196, 196); border-left: 0;border-top:0 ; border-bottom: 0;">
+                <img src="images/pngwing.com1.png" alt="Featured Image" class="img-fluid featured-image">
+            </div>
+        </div>
+     
+
+        <!-- Second Column with Images (Cards) -->
+        <div class="col-md-12 col-lg-6">
+            <!-- Section Heading -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Explore Our Visual Content</h2>
+                    <p>Check out the featured image and a collection of images with animations below.</p>
+                </div>
+            </div>
+
+            <!-- Horizontal Line (hr) for Separation -->
+           
+            <!-- Carousel Container -->
+            <div id="product-carousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#product-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#product-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+
+                <!-- Carousel Inner -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row gy-4">
+                            <!-- Card 3 -->
+                            <div class="col-md-6 col-lg-6">
+                                <div class="card hover-card position-relative">
+                                    <div class="card-front text-center">
+                                        <img id="card-img-3" src="images/pngwing.com3.png" class="card-img img-fluid" alt="Product Image">
+                                        <div class="card-details text-start">
+                                            <p id="product-desc-3" class="product-description">Experience luxury and comfort with this top-tier product.</p>
+                                            <p id="price-3" class="price">
+                                                <span class="discounted-price">$49.99</span>
+                                                <span class="discounted-price"><del>$79.99</del></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="hover-overlay-3" class="card-hover-overlay">
+                                        <div class="hover-card-container position-relative">
+                                            <div class="hover-card-content text-center">
+                                                <img id="hover-img-3" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                                                <div id="discount-badge-3" class="discount-badge">38% Off</div>
+                                                <div id="hover-icons-3" class="hover-icons d-flex justify-content-center my-3">
+                                                    <i id="icon-3-1" class="fas fa-heart me-3"></i>
+                                                    <i id="icon-3-2" class="fas fa-eye me-3"></i>
+                                                    <i id="icon-3-3" class="fas fa-shopping-cart me-3"></i>
+                                                </div>
+                                                <button id="buy-btn-3" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 4 -->
+                            <div class="col-md-6 col-lg-6">
+                                <div class="card hover-card position-relative">
+                                    <div class="card-front text-center">
+                                        <img id="card-img-4" src="images/12_ecca5b85-8d8a-4c6e-bf67-3e3f265da86e_360x.webp" class="card-img img-fluid" alt="Product Image">
+                                        <div class="card-details text-start">
+                                            <p id="product-desc-4" class="product-description">Upgrade your style with this stunning product.</p>
+                                            <p id="price-4" class="price">
+                                                <span class="discounted-price">$29.99</span>
+                                                <span class="discounted-price"><del>$49.99</del></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="hover-overlay-4" class="card-hover-overlay">
+                                        <div class="hover-card-container position-relative">
+                                            <div class="hover-card-content text-center">
+                                                <img id="hover-img-4" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                                                <div id="discount-badge-4" class="discount-badge">40% Off</div>
+                                                <div id="hover-icons-4" class="hover-icons d-flex justify-content-center my-3">
+                                                    <i id="icon-4-1" class="fas fa-heart me-3"></i>
+                                                    <i id="icon-4-2" class="fas fa-eye me-3"></i>
+                                                    <i id="icon-4-3" class="fas fa-shopping-cart me-3"></i>
+                                                </div>
+                                                <button id="buy-btn-4" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Another carousel item (You can add more items here) -->
+                    <div class="carousel-item">
+                        <div class="row gy-4">
+                            <!-- Card 3 -->
+                            <div class="col-md-6 col-lg-6">
+                                <div class="card hover-card position-relative">
+                                    <div class="card-front text-center">
+                                        <img id="card-img-3" src="images/pngwing.com3.png" class="card-img img-fluid" alt="Product Image">
+                                        <div class="card-details text-start">
+                                            <p id="product-desc-3" class="product-description">Experience luxury and comfort with this top-tier product.</p>
+                                            <p id="price-3" class="price">
+                                                <span class="discounted-price">$49.99</span>
+                                                <span class="discounted-price"><del>$79.99</del></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="hover-overlay-3" class="card-hover-overlay">
+                                        <div class="hover-card-container position-relative">
+                                            <div class="hover-card-content text-center">
+                                                <img id="hover-img-3" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                                                <div id="discount-badge-3" class="discount-badge">38% Off</div>
+                                                <div id="hover-icons-3" class="hover-icons d-flex justify-content-center my-3">
+                                                    <i id="icon-3-1" class="fas fa-heart me-3"></i>
+                                                    <i id="icon-3-2" class="fas fa-eye me-3"></i>
+                                                    <i id="icon-3-3" class="fas fa-shopping-cart me-3"></i>
+                                                </div>
+                                                <button id="buy-btn-3" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 4 -->
+                            <div class="col-md-6 col-lg-6">
+                                <div class="card hover-card position-relative">
+                                    <div class="card-front text-center">
+                                        <img id="card-img-4" src="images/12_ecca5b85-8d8a-4c6e-bf67-3e3f265da86e_360x.webp" class="card-img img-fluid" alt="Product Image">
+                                        <div class="card-details text-start">
+                                            <p id="product-desc-4" class="product-description">Upgrade your style with this stunning product.</p>
+                                            <p id="price-4" class="price">
+                                                <span class="discounted-price">$29.99</span>
+                                                <span class="discounted-price"><del>$49.99</del></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="hover-overlay-4" class="card-hover-overlay">
+                                        <div class="hover-card-container position-relative">
+                                            <div class="hover-card-content text-center">
+                                                <img id="hover-img-4" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                                                <div id="discount-badge-4" class="discount-badge">40% Off</div>
+                                                <div id="hover-icons-4" class="hover-icons d-flex justify-content-center my-3">
+                                                    <i id="icon-4-1" class="fas fa-heart me-3"></i>
+                                                    <i id="icon-4-2" class="fas fa-eye me-3"></i>
+                                                    <i id="icon-4-3" class="fas fa-shopping-cart me-3"></i>
+                                                </div>
+                                                <button id="buy-btn-4" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#product-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#product-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ................................................................. -->
+<div class="container py-5">
+    <!-- Section Heading and Introductory Text -->
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Our Exclusive Products</h2>
+        <p class="text-muted">Discover our range of top-notch products designed to meet your needs. Explore quality, innovation, and value.</p>
+    </div>
+
+    <div class="row">
+        <!-- First Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-lg rounded position-relative">
+                <div class="card-body text-start">
+                    <h5 class="card-title mb-3">Premium Laptop</h5>
+                    <!-- 5-star Rating -->
+                    <div class="text-start mb-3">
+                        <span class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </span>
+                    </div>
+                    <p class="card-text1">Experience unmatched performance with our premium laptop. Perfect for work, entertainment, and everything in between.</p>
+                    <!-- Image and Text in Row -->
+                    <div class="d-flex align-items-center mt-4">
+                        <div>
+                            <img src="images/pngwing.com1.png" alt="Premium Laptop" class="img-fluid rounded-circle" style="width: 50px; height: 50px; object-fit: scale-down;">
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="mb-0">Learn More</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-lg rounded position-relative">
+                <div class="card-body text-start">
+                    <h5 class="card-title mb-3">Smartphone Pro</h5>
+                    <!-- 5-star Rating -->
+                    <div class="text-start mb-3">
+                        <span class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                    <p class="card-text1">Stay connected and capture every moment with our Smartphone Pro, featuring an amazing camera and long-lasting battery.</p>
+                    <!-- Image and Text in Row -->
+                    <div class="d-flex align-items-center mt-4">
+                        <div>
+                            <img src="images/images (34).jpg" alt="Smartphone Pro" class="img-fluid rounded-circle" style="width: 50px; height: 50px; object-fit: scale-down; " >
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="mb-0">Discover More</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-lg rounded position-relative">
+                <div class="card-body text-start">
+                    <h5 class="card-title mb-3">Wireless Earbuds</h5>
+                    <!-- 5-star Rating -->
+                    <div class="text-start mb-3">
+                        <span class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span>
+                    </div>
+                    <p class="card-text1">Immerse yourself in exceptional sound quality with our Wireless Earbuds. Designed for comfort and crystal-clear audio.</p>
+                    <!-- Image and Text in Row -->
+                    <div class="d-flex align-items-center mt-4">
+                        <div>
+                            <img src="images/pngwing.com10.png" alt="Wireless Earbuds" class="img-fluid rounded-circle" style="width: 50px; height: 50px; object-fit: scale-down;">
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="mb-0">Find Out More</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- .................................................................. -->
+
+<div class="container ">
+    <div class="text-center mb-5">
+        <h2 class="section-title">Featured collection</h2>
+        <p class="section-subtitle">Grab your favorites at unbeatable prices!</p>
+    </div>
+
+    <div class="row gy-4 portfolio-slider">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3" id="card-1">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-1" src="images/pngwing.com 5.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-1" class="product-description">Discover the perfect blend of quality and amazing product.</p>
+                        <p id="price-1" class="price">
+                            <span class="discounted-price">$23.00</span>
+                            <span class="discounted-price"><del>$66.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-1" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-1" src="images/pngwing.com 9.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-1" class="discount-badge">20% Off</div>
+                            <div id="hover-icons-1" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-1-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-1-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-1-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-1" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3" id="card-2">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-2" src="images/pngwing.com1.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-2" class="product-description">Discover the perfect blend of quality and amazing product.</p>
+                        <p id="price-2" class="price">
+                            <span class="discounted-price">$23.00</span>
+                            <span class="discounted-price"><del>$66.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-2" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-2" src="images/pngwing.com2.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-2" class="discount-badge">20% Off</div>
+                            <div id="hover-icons-2" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-2-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-2-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-2-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-2" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3" id="card-3">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-3" src="images/pngwing.com3.png" class="card-img img-fluid" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-3" class="product-description">Experience luxury and comfort with this top-tier product.</p>
+                        <p id="price-3" class="price">
+                            <span class="discounted-price">$49.99</span>
+                            <span class="discounted-price"><del>$79.99</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-3" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-3" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-3" class="discount-badge">38% Off</div>
+                            <div id="hover-icons-3" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-3-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-3-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-3-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-3" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3" id="card-4">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-4" src="images/12_ecca5b85-8d8a-4c6e-bf67-3e3f265da86e_360x.webp" class="card-img img-fluid" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-4" class="product-description">Upgrade your style with this stunning product.</p>
+                        <p id="price-4" class="price">
+                            <span class="discounted-price">$29.99</span>
+                            <span class="discounted-price"><del>$49.99</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-4" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-4" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-4" class="discount-badge">40% Off</div>
+                            <div id="hover-icons-4" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-4-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-4-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-4-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-4" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ............ -->
+        <div class="col-md-6 col-lg-3" id="card-1">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-1" src="images/pngwing.com 5.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-1" class="product-description">Discover the perfect blend of quality and amazing product.</p>
+                        <p id="price-1" class="price">
+                            <span class="discounted-price">$23.00</span>
+                            <span class="discounted-price"><del>$66.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-1" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-1" src="images/pngwing.com 9.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-1" class="discount-badge">20% Off</div>
+                            <div id="hover-icons-1" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-1-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-1-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-1-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-1" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3" id="card-2">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-2" src="images/pngwing.com1.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-2" class="product-description">Discover the perfect blend of quality and amazing product.</p>
+                        <p id="price-2" class="price">
+                            <span class="discounted-price">$23.00</span>
+                            <span class="discounted-price"><del>$66.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-2" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-2" src="images/pngwing.com2.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-2" class="discount-badge">20% Off</div>
+                            <div id="hover-icons-2" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-2-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-2-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-2-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-2" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3" id="card-3">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-3" src="images/pngwing.com3.png" class="card-img img-fluid" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-3" class="product-description">Experience luxury and comfort with this top-tier product.</p>
+                        <p id="price-3" class="price">
+                            <span class="discounted-price">$49.99</span>
+                            <span class="discounted-price"><del>$79.99</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-3" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-3" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-3" class="discount-badge">38% Off</div>
+                            <div id="hover-icons-3" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-3-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-3-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-3-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-3" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3" id="card-4">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-4" src="images/12_ecca5b85-8d8a-4c6e-bf67-3e3f265da86e_360x.webp" class="card-img img-fluid" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-4" class="product-description">Upgrade your style with this stunning product.</p>
+                        <p id="price-4" class="price">
+                            <span class="discounted-price">$29.99</span>
+                            <span class="discounted-price"><del>$49.99</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-4" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-4" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-4" class="discount-badge">40% Off</div>
+                            <div id="hover-icons-4" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-4-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-4-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-4-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-4" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- ................ -->
+<div class="container py-5">
+  
+    <div class="row gy-4 portfolio-slider">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3" id="card-1">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-1" src="images/pngwing.com 5.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-1" class="product-description">Discover the perfect blend of quality and amazing product.</p>
+                        <p id="price-1" class="price">
+                            <span class="discounted-price">$23.00</span>
+                            <span class="discounted-price"><del>$66.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-1" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-1" src="images/pngwing.com 9.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-1" class="discount-badge">20% Off</div>
+                            <div id="hover-icons-1" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-1-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-1-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-1-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-1" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3" id="card-2">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-2" src="images/pngwing.com1.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-2" class="product-description">Discover the perfect blend of quality and amazing product.</p>
+                        <p id="price-2" class="price">
+                            <span class="discounted-price">$23.00</span>
+                            <span class="discounted-price"><del>$66.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-2" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-2" src="images/pngwing.com2.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-2" class="discount-badge">20% Off</div>
+                            <div id="hover-icons-2" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-2-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-2-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-2-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-2" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3" id="card-3">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-3" src="images/pngwing.com3.png" class="card-img img-fluid" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-3" class="product-description">Experience luxury and comfort with this top-tier product.</p>
+                        <p id="price-3" class="price">
+                            <span class="discounted-price">$49.99</span>
+                            <span class="discounted-price"><del>$79.99</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-3" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-3" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-3" class="discount-badge">38% Off</div>
+                            <div id="hover-icons-3" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-3-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-3-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-3-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-3" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3" id="card-4">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-4" src="images/12_ecca5b85-8d8a-4c6e-bf67-3e3f265da86e_360x.webp" class="card-img img-fluid" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-4" class="product-description">Upgrade your style with this stunning product.</p>
+                        <p id="price-4" class="price">
+                            <span class="discounted-price">$29.99</span>
+                            <span class="discounted-price"><del>$49.99</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-4" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-4" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-4" class="discount-badge">40% Off</div>
+                            <div id="hover-icons-4" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-4-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-4-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-4-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-4" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ............ -->
+        <div class="col-md-6 col-lg-3" id="card-1">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-1" src="images/pngwing.com 5.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-1" class="product-description">Discover the perfect blend of quality and amazing product.</p>
+                        <p id="price-1" class="price">
+                            <span class="discounted-price">$23.00</span>
+                            <span class="discounted-price"><del>$66.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-1" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-1" src="images/pngwing.com 9.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-1" class="discount-badge">20% Off</div>
+                            <div id="hover-icons-1" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-1-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-1-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-1-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-1" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3" id="card-2">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-2" src="images/pngwing.com1.png" class="card-img-center" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-2" class="product-description">Discover the perfect blend of quality and amazing product.</p>
+                        <p id="price-2" class="price">
+                            <span class="discounted-price">$23.00</span>
+                            <span class="discounted-price"><del>$66.00</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-2" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-2" src="images/pngwing.com2.png" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-2" class="discount-badge">20% Off</div>
+                            <div id="hover-icons-2" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-2-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-2-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-2-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-2" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3" id="card-3">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-3" src="images/pngwing.com3.png" class="card-img img-fluid" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-3" class="product-description">Experience luxury and comfort with this top-tier product.</p>
+                        <p id="price-3" class="price">
+                            <span class="discounted-price">$49.99</span>
+                            <span class="discounted-price"><del>$79.99</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-3" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-3" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-3" class="discount-badge">38% Off</div>
+                            <div id="hover-icons-3" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-3-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-3-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-3-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-3" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3" id="card-4">
+            <div class="card hover-card position-relative">
+                <div class="card-front text-center">
+                    <img id="card-img-4" src="images/12_ecca5b85-8d8a-4c6e-bf67-3e3f265da86e_360x.webp" class="card-img img-fluid" alt="Product Image">
+                    <div class="card-details text-start">
+                        <p id="product-desc-4" class="product-description">Upgrade your style with this stunning product.</p>
+                        <p id="price-4" class="price">
+                            <span class="discounted-price">$29.99</span>
+                            <span class="discounted-price"><del>$49.99</del></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="hover-overlay-4" class="card-hover-overlay">
+                    <div class="hover-card-container position-relative">
+                        <div class="hover-card-content text-center">
+                            <img id="hover-img-4" src="images/3_dec0691b-cace-4ec3-8a9c-8214623e45aa_360x.webp" class="hover-card-img img-fluid mb-3" alt="Product Image">
+                            <div id="discount-badge-4" class="discount-badge">40% Off</div>
+                            <div id="hover-icons-4" class="hover-icons d-flex justify-content-center my-3">
+                                <i id="icon-4-1" class="fas fa-heart me-3"></i>
+                                <i id="icon-4-2" class="fas fa-eye me-3"></i>
+                                <i id="icon-4-3" class="fas fa-shopping-cart me-3"></i>
+                            </div>
+                            <button id="buy-btn-4" class="btn shop-btn-hover btn-outline-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- ....................................................................... -->
+<div class="container mt-5 bg-light-subtle">
+    <div class="row d-flex justify-content-center align-items-center">
+      <!-- First Column: Image, Heading, Paragraph, Button (without card) -->
+      <div class="col-md-6 mb-4">
+        <div class="custom-card p-3 rounded fade-in">
+          <!-- Image with smaller size -->
+          <img src="images/pngwing.com11.png" alt="Image" class="img-fluid custom-img rounded mb-3 fade-in" />
+          <h3 class="custom-title text-center fade-in">Your Heading Here</h3>
+          <p class="custom-text text-center fade-in">This is a description paragraph. You can describe your content here. Make sure to keep it engaging and informative.</p>
+          <div class="text-center">
+            <button class="btn w-50 btn-outline-danger custom-btn fade-in">Buy Now</button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Second Column: Video with Controls -->
+      <div class="col-md-6 mb-4">
+        <div class="custom-card p-3 rounded fade-in">
+          <!-- Video with smaller size -->
+          <video controls class="w-100 rounded custom-video fade-in">
+            <source src="images/Tesla model S Plaid acceleration 0-114mph.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- .............................................................. -->
+
+  <div class="container mt-5 blog-section">
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h1 class="section-title fw-bold">Latest Blog Posts</h1>
+      <p class="section-description text-muted">Discover our latest insights, news, and updates from our blog.</p>
+    </div>
+  
+    <div class="row justify-content-center">
+      <!-- Blog Post 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="blog-card p-3 rounded shadow">
+          <img src="images/pngwing.com10.png" alt="Blog Post 1" class="img-fluid rounded-top blog-img">
+          <div class="card-body text-start">
+            <p class="blog-date text-muted">January 21, 2025</p>
+            <h2 class="blog-title">The Future of Technology: Trends to Watch</h2>
+            <p class="blog-text">This is a short description of the blog post. It should be concise and engaging to capture the reader's interest.</p>
+            <a href="#" class="btn btn-outline-danger blog-btn">
+              <i class="fas fa-arrow-right me-2"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Blog Post 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="blog-card p-3 rounded shadow">
+          <img src="images/pngwing.com1.png" alt="Blog Post 2" class="img-fluid rounded-top blog-img">
+          <div class="card-body text-start">
+            <p class="blog-date text-muted">January 20, 2025</p>
+            <h2 class="blog-title">Top Marketing Strategies for 2025</h2>
+            <p class="blog-text">This is another short description of a different blog post. Keep it relevant and to the point. Discover trends and updates in the industry.</p>
+            <a href="#" class="btn btn-outline-danger blog-btn">
+              <i class="fas fa-arrow-right me-2"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Blog Post 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="blog-card p-3 rounded shadow">
+          <img src="images/pngwing.com2.png" alt="Blog Post 3" class="img-fluid rounded-top blog-img">
+          <div class="card-body text-start">
+            <p class="blog-date text-muted">January 19, 2025</p>
+            <h2 class="blog-title">How to Stay Ahead in a Competitive Industry</h2>
+            <p class="blog-text">This blog description provides more insights. Write captivating and brief summaries for better engagement.</p>
+            <a href="#" class="btn btn-outline-danger blog-btn">
+              <i class="fas fa-arrow-right me-2"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ........................................... -->
+
+  <footer class="custom-footer">
+    <div class="container-fluid">
+      <div class="row text-start text-md-start">
+        <!-- Location 1 -->
+        <div class="col-md-4 footer-section">
+          <h5>NEW YORK</h5>
+          <p>Huntersville,<br>957 Hill Hills Suite 491, United States</p>
+          <p>📞 Office: +12(3) 456 7890 1234</p>
+          <p>📧 Support: company@name.com</p>
+        </div>
+        <!-- Location 2 -->
+        <div class="col-md-4 footer-section">
+          <h5>ROME</h5>
+          <p>Lungomare,<br>7857 Lombardia 491, Italy</p>
+          <p>📞 Office: +12(3) 456 7890 1234</p>
+          <p>📧 Support: company@name.com</p>
+        </div>
+        <!-- Location 3 -->
+        <div class="col-md-4 footer-section">
+          <h5>LONDON</h5>
+          <p>6 Sunbeam St,<br>131 South Lincoln Ave, United Kingdom</p>
+          <p>📞 Office: +12(3) 456 7890 1234</p>
+          <p>📧 Support: company@name.com</p>
+        </div>
+      </div>
+
+      <!-- Newsletter Subscription -->
+      <div class="row justify-content-center ">
+        <div class="col-12 text-center">
+          <h5>Sign up to our newsletter</h5>
+        </div>
+        <div class="col-12">
+          <form class="newsletter-form d-flex justify-content-center">
+            <input type="email" class="form-control me-2" placeholder="Enter your email" required>
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+         <!-- Footer Bottom -->
+     
+      </div>
+      <div class="row">
+        <div class="col-12 custom-footer-bottom">
+          <p>&copy; 2022 Flowbite, Inc. All rights reserved.</p>
+          <div class="flag-icon">
+            <img src="https://flagcdn.com/us.svg" alt="US Flag">
+            <span>English (US)</span>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </footer>
+  
+  
+  
+  
+            <!-- jQuery (Include only one version) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Bootstrap & Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+<!-- Slick Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<!-- WOW.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<!-- Custom Script -->
+<script src="js/index.js"></script>
+
+<script>
+     new WOW().init(); // Initialize WOW.js
+  
+// .............................................??
+const shopLink = document.getElementById('shopLink');
+const shopContent = document.getElementById('shopContent');
+
+// Show on hover
+shopLink.addEventListener('mouseenter', () => {
+    shopContent.style.display = 'block';
+});
+
+// Hide when the mouse leaves #shopContent
+shopContent.addEventListener('mouseleave', () => {
+    shopContent.style.display = 'none';
+});
+
+// Optional: Ensure #shopContent stays visible when hovered
+shopContent.addEventListener('mouseenter', () => {
+    shopContent.style.display = 'block';
+});
+
+// Hide when mouse leaves #shopLink
+shopLink.addEventListener('mouseleave', () => {
+    setTimeout(() => {
+        if (!shopContent.matches(':hover')) {
+            shopContent.style.display = 'none';
+        }
+    }, 100);
+});
+
+</script>
+</body>
+</html>

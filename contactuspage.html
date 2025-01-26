@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- Slick Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <link rel="stylesheet" href="css/contact.css">
+ 
+</head>
+<body>
+
+    <div class="nav--nav">
+        <div class="container py-3">
+            <!-- Desktop and Laptop View (Visible only on large screens and above) -->
+            <div class="row align-items-center d-none d-md-flex">
+                <!-- Logo Section -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <img src="images/pngwing.com.png" alt="Logo" class="logo">
+                </div>
+        
+                <!-- Navigation Section -->
+                <div class="col-lg-8 col-md-6 col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Home
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                            <li><a class="dropdown-item" href="index.html">Home 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="shoppage.html" id="shopLink">Shop</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="aboutuspage.html">About Us</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                            <li><a class="dropdown-item" href="aboutuspage.html">About Us</a></li>
+                                            <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                            <li><a class="dropdown-item" href="#">Compare</a></li>
+                                            <li><a class="dropdown-item" href="#">Team</a></li>
+                                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                            <li><a class="dropdown-item" href="contactuspage.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                                            <li><a class="dropdown-item" href="#">Blog Left Sidebar</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="contactuspage.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+        
+                <!-- Icons Section -->
+                <div class="col-lg-2 col-md-3 col-6 text-end icon d-none d-md-flex">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-user mx-1"></i>
+                    <i class="fas fa-shopping-cart mx-1"></i>
+                </div>
+            </div>
+        
+            <!-- Mobile View Section (Visible only on smaller screens) -->
+             
+            <div class="row  nav--nav align-items-center d-md-none"style="height: 60px; background-color: #ffffff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); padding: 0 20px;">
+               <!-- Logo Section -->
+    <div class="col-7 d-flex align-items-center">
+        <img src="images/pngwing.com.png" alt="Logo" class="logo img-fluid" style="max-width: 50px; height: auto;">
+    </div>
+
+    <!-- Icons Section -->
+    <div class="col-3 d-flex justify-content-end align-items-center icon mt-3">
+        <i class="fas fa-shopping-cart mx-1" style="font-size: 20px; color: #555555;"></i>
+        <i class="fas fa-user mx-1" style="font-size: 20px; color: #555555;"></i>
+    </div>
+
+    <!-- Hamburger Button for Mobile -->
+    <div class="col-2 d-flex justify-content-end align-items-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none; background: transparent;">
+            <span class="navbar-toggler-icon" style="font-size: 30px;">
+                <i class="fas fa-bars" style="color: #555555;"></i> <!-- Font Awesome Hamburger Icon -->
+            </span>
+        </button>
+    </div>
+            </div>
+        
+            <!-- Collapsible Navbar (Visible only on mobile) -->
+            <div class="col-lg-8 col-md-6 col-12 d-md-none">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarNav" >
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                        <li><a class="dropdown-item" href="index.html">Home 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="shoppage.html">Shop</a></li>
+                                <li class="nav-item"><a class="nav-link" href="aboutuspage.html">About Us</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                        <li><a class="dropdown-item" href="abouts">About Us</a></li>
+                                        <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                        <li><a class="dropdown-item" href="#">Compare</a></li>
+                                        <li><a class="dropdown-item" href="#">Team</a></li>
+                                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                        <li><a class="dropdown-item" href="contactuspage.html">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                                        <li><a class="dropdown-item" href="#">Blog Left Sidebar</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="contactuspage.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+
+            <!-- Shop Content -->
+    <div id="shopContent" style="display: none;">
+        <div class="container container py-5  " >
+            <!-- Main Content Row -->
+            <div class="row gy-4" style=" background: #f0f0f0; /* Unified background color */">
+            <!-- Category Sections Column (First col-md-6) -->
+            <div class="col-md-6">
+            <div class="row gy-4">
+            <!-- Kid's Fashion -->
+            <div class="col-md-3">
+            <div class="category-box">
+            <h3 class="category-title" >Kid's Fashion</h3>
+            <ul class="product-list">
+               <li><a href="#">Toys</a></li>
+               <li><a href="#">Clothing</a></li>
+               <li><a href="#">Footwear</a></li>
+               <li><a href="#">Accessories</a></li>
+            </ul>
+            </div>
+            </div>
+            
+            <!-- Man's Fashion -->
+            <div class="col-md-3">
+            <div class="category-box">
+            <h3 class="category-title">Man's Fashion</h3>
+            <ul class="product-list">
+               <li><a href="#">Shirts</a></li>
+               <li><a href="#">Pants</a></li>
+               <li><a href="#">Shoes</a></li>
+               <li><a href="#">Jackets</a></li>
+            </ul>
+            </div>
+            </div>
+            
+            <!-- Women's Fashion -->
+            <div class="col-md-3">
+            <div class="category-box">
+            <h3 class="category-title">Women's Fashion</h3>
+            <ul class="product-list">
+               <li><a href="#">Dresses</a></li>
+               <li><a href="#">Tops</a></li>
+               <li><a href="#">Shoes</a></li>
+               <li><a href="#">Jewelry</a></li>
+            </ul>
+            </div>
+            </div>
+            
+            <!-- Boy's Fashion -->
+            <div class="col-md-3">
+            <div class="category-box">
+            <h3 class="category-title">Boy's Fashion</h3>
+            <ul class="product-list">
+               <li><a href="#">T-Shirts</a></li>
+               <li><a href="#">Shorts</a></li>
+               <li><a href="#">Sneakers</a></li>
+               <li><a href="#">Accessories</a></li>
+            </ul>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+            <!-- Product Cards Column (Second col-md-6) -->
+            <div class="col-md-6">
+            <div class="row gy-4 d-flex justify-content-center">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-6">
+            <div class="card shopping-card position-relative">
+            <img src="images/images (31).jpg" class="card-img-top" alt="Shoe 1">
+            <div class="card-overlay text-center">
+               <h3 class="card-title">Kid's Fashion</h3>
+               <button class="btn shop-btn btn-outline-danger">Shop Now</button>
+            </div>
+            </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-6">
+            <div class="card shopping-card position-relative">
+            <img src="images/12_ecca5b85-8d8a-4c6e-bf67-3e3f265da86e_360x.webp" class="card-img-top" alt="Bag 1">
+            <div class="card-overlay text-center">
+               <h3 class="card-title">Man's Fashion</h3>
+               <button class="btn shop-btn btn-outline-danger">Shop Now</button>
+            </div>
+            </div>
+            </div>
+            
+            
+            </div>
+            </div>
+            </div>
+            </div>
+    </div>
+    
+    </div>
+    
+
+
+    
+  
+    
+<!-- ................................................................... -->
+
+<div class="container-fluid py-5 mt-5">
+    <div class="contact-header">
+      <h1>Let's Get In Touch</h1>
+      <p>We'd love to hear from you. Reach out to us with any inquiries or feedback.</p>
+    </div>
+
+   
+<div class="row g-4">
+    <!-- Contact Details -->
+    <div class="col-lg-4">
+      <div class="contact-details text-center">
+        <p class="icon  "><i class="fas fa-phone-alt"></i></p>
+        <p>+123 45 789 000</p>
+        <p>+123 45 789 000</p>
+      </div>
+    </div>
+  
+    <div class="col-lg-4">
+      <div class="contact-details text-center">
+        <p class="icon i "><i class="fas fa-envelope"></i></p>
+        <p>inquiry@company.com</p>
+        <p>help@company.com</p>
+      </div>
+    </div>
+  
+    <div class="col-lg-4">
+      <div class="contact-details text-center">
+        <p class="icon i"><i class="fas fa-map-marker-alt"></i></p>
+        <p>221b Elementary Street</p>
+        <p>New York, NY</p>
+      </div>
+    </div>
+  </div>
+  
+
+    <div class="row mt-5">
+      <div class="col-lg-12">
+        <div class="contact-form bg-light">
+          <h5 class="text-center mb-4">Or fill out the form below</h5>
+          <form>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="inquiry-purpose">Inquiry Purpose*</label>
+                <select id="inquiry-purpose" class="form-select">
+                  <option selected>Choose one option...</option>
+                  <option>General Inquiry</option>
+                  <option>Technical Support</option>
+                  <option>Business Collaboration</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label for="description">Description that fits you*</label>
+                <select id="description" class="form-select">
+                  <option selected>Choose one option...</option>
+                  <option>Customer</option>
+                  <option>Business Partner</option>
+                  <option>Investor</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label for="full-name">Full Name*</label>
+                <input type="text" id="full-name" class="form-control" placeholder="Enter your full name">
+              </div>
+              <div class="col-md-6">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email address">
+              </div>
+              <div class="col-md-6">
+                <label for="organization">Organization</label>
+                <input type="text" id="organization" class="form-control" placeholder="Enter your organization">
+              </div>
+              <div class="col-md-6">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number">
+              </div>
+              <div class="col-12">
+                <label for="message">Message*</label>
+                <textarea id="message" class="form-control" rows="4" placeholder="Enter your message here..."></textarea>
+              </div>
+              <div class="col-12 text-center">
+                <button type="submit" class="btn-submit">Submit Form</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ........................................... -->
+
+
+
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="row align-items-center">
+        <!-- Map Section -->
+        <div class="col-md-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45490.82117680185!2d72.65369630057586!3d32.065853811593946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39217439502694e3%3A0x55e1bad6edcbbc70!2sSargodha%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1737448803035!5m2!1sen!2s"
+            width="100%"
+            height="400"
+            class="contact-map"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        
+        <!-- Location Details Section -->
+        <div class="col-md-6">
+          <div class="location-details">
+            <h3>Our Location</h3>
+            <p><span class="icon">📍</span>221b Elementary Street, New York, NY</p>
+            <p><span class="icon">📞</span>+123 456 7890</p>
+            <p><span class="icon">✉️</span>support@company.com</p>
+            <p>We’re open Monday to Friday from 9 AM to 6 PM. Feel free to visit us or reach out to us via phone or email.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- .............................................................. -->
+  <footer class="custom-footer">
+    <div class="container-fluid">
+      <div class="row text-start text-md-start">
+        <!-- Location 1 -->
+        <div class="col-md-4 footer-section">
+          <h5>NEW YORK</h5>
+          <p>Huntersville,<br>957 Hill Hills Suite 491, United States</p>
+          <p>📞 Office: +12(3) 456 7890 1234</p>
+          <p>📧 Support: company@name.com</p>
+        </div>
+        <!-- Location 2 -->
+        <div class="col-md-4 footer-section">
+          <h5>ROME</h5>
+          <p>Lungomare,<br>7857 Lombardia 491, Italy</p>
+          <p>📞 Office: +12(3) 456 7890 1234</p>
+          <p>📧 Support: company@name.com</p>
+        </div>
+        <!-- Location 3 -->
+        <div class="col-md-4 footer-section">
+          <h5>LONDON</h5>
+          <p>6 Sunbeam St,<br>131 South Lincoln Ave, United Kingdom</p>
+          <p>📞 Office: +12(3) 456 7890 1234</p>
+          <p>📧 Support: company@name.com</p>
+        </div>
+      </div>
+
+      <!-- Newsletter Subscription -->
+      <div class="row justify-content-center ">
+        <div class="col-12 text-center">
+          <h5>Sign up to our newsletter</h5>
+        </div>
+        <div class="col-12">
+          <form class="newsletter-form d-flex justify-content-center">
+            <input type="email" class="form-control me-2" placeholder="Enter your email" required>
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+         <!-- Footer Bottom -->
+     
+      </div>
+      <div class="row">
+        <div class="col-12 custom-footer-bottom">
+          <p>&copy; 2022 Flowbite, Inc. All rights reserved.</p>
+          <div class="flag-icon">
+            <img src="https://flagcdn.com/us.svg" alt="US Flag">
+            <span>English (US)</span>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </footer>
+  
+  
+  
+  
+            <!-- jQuery (Include only one version) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Bootstrap & Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+<!-- Slick Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<!-- WOW.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<!-- Custom Script -->
+<script src="js/index.js"></script>
+<script>
+     new WOW().init(); // Initialize WOW.js
+  
+// .............................................??
+const shopLink = document.getElementById('shopLink');
+const shopContent = document.getElementById('shopContent');
+
+// Show on hover
+shopLink.addEventListener('mouseenter', () => {
+    shopContent.style.display = 'block';
+});
+
+// Hide when the mouse leaves #shopContent
+shopContent.addEventListener('mouseleave', () => {
+    shopContent.style.display = 'none';
+});
+
+// Optional: Ensure #shopContent stays visible when hovered
+shopContent.addEventListener('mouseenter', () => {
+    shopContent.style.display = 'block';
+});
+
+// Hide when mouse leaves #shopLink
+shopLink.addEventListener('mouseleave', () => {
+    setTimeout(() => {
+        if (!shopContent.matches(':hover')) {
+            shopContent.style.display = 'none';
+        }
+    }, 100);
+});
+
+</script>
+</body>
+</html>
